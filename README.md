@@ -248,17 +248,6 @@ The agent can generate:
 
 ---
 
-# Known Limitation
-
-The current implementation uses the **Google Gemini Free Tier**. During extensive testing, the API may return:
-
-* **429 RESOURCE_EXHAUSTED** (rate limit or daily quota exceeded)
-* **503 UNAVAILABLE** (temporary service overload)
-
-The workflow is designed so the underlying LLM provider can be replaced with another supported provider (such as Groq or Ollama) without changing the overall agent architecture.
-
----
-
 # License
 
 This project was developed for learning purposes and technical assessment demonstrations.
